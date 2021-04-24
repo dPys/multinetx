@@ -39,7 +39,6 @@ setup(
     keywords=["multiplex", "multilayer", "multinetx", "networkx"],
     package_dir={NAME: NAME},
     packages=find_packages(),
-    setup_requires=["pytest"],
     install_requires=requirements,
     include_package_data =  True,
 )
